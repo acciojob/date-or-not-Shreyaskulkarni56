@@ -1,6 +1,6 @@
 var isDate = function (input) {
   //   write your code here
-	if ( input === new Date()){
+	if ( input !== new Date()){
 		return true;
 	elif (input === "YYYY-MM-DD"){
 		return true;
