@@ -1,10 +1,10 @@
 var isDate = function (input) {
   //   write your code here
-	if ( isDate === new Date()){
+	if ( input === new Date()){
 		return true;
-	elif (isDate === "YYYY-MM-DD"){
+	elif (input === "YYYY-MM-DD"){
 		return true;
-	}else{
+	}elif(input !== isDate){
 		return false;
     }
     }
